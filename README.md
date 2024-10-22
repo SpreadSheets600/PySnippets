@@ -412,4 +412,4 @@ If you find this project helpful, please consider giving it a ⭐ on GitHub! You
 
 ---
 
-Happy coding! 🚀
+Happy coding! 🚀🧑‍💻
