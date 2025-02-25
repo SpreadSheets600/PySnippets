@@ -1,0 +1,52 @@
+site_name: PySnippets
+site_url: https://utsavs26.github.io/PySnippets/
+theme:
+  name: material
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  features:
+    - navigation.sections
+    - navigation.footer
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+
+extra:
+  social:
+    - icon: simple/linkedin
+      link: https://linkedin.com/in/utsavsinghal2604/
+    - icon: simple/github
+      link: https://github.com/UTSAVS26/PySnippets
+
+copyright: Copyright &copy; 2025 Utsav Singhal
